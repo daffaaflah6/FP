@@ -3,7 +3,7 @@
 Marsha Nabilah Wibowo - 05111840000027 || Muhammmad Daffa' Aflah Syarif - 05111840000030
 
 # 1. pwd
-Source Code : []()
+Source Code : [pwd.c](https://github.com/daffaaflah6/FP_SISOP20_C11/blob/master/pwd.c)
 
 Perintah pwd atau (print working direktori) ini digunakan untuk menampilkan direktori anda sekarang.
 Contoh:
@@ -13,7 +13,7 @@ suhu@suhu-pc:~$ pwd
 ```
 
 # 2. find
-Source Code : []()
+Source Code : [find.c](https://github.com/daffaaflah6/FP_SISOP20_C11/blob/master/find.c)
 
 Perintah ini digunakan untuk mencari file di directory. Perintah ini bersifat rekursif.
 Contoh :
@@ -35,7 +35,7 @@ Kosong/dir1/ini_gambar.jpg
 ```
 
 # 3. stat
-Source Code : []()
+Source Code : [stat.c](https://github.com/daffaaflah6/FP_SISOP20_C11/blob/master/stat.c)
 
 Menampilkan informasi secara detail tentang file
 Contoh:
@@ -44,7 +44,7 @@ stat file.txt -> menampilkan informasi file, size, blocks, IO Blocks, File type,
 ```
 
 # 4. split
-Source Code : []()
+Source Code : [split.c](https://github.com/daffaaflah6/FP_SISOP20_C11/blob/master/split.c)
 
 Membagi file menjadi beberapa file dimana secara default beberapa file tersebut tidak melebihi 1000 line
 Contoh:
@@ -53,7 +53,7 @@ split file1.c -> membagi file1.c menjadi file xaa dan xab dimana file xaa dan xa
 ```
 
 # 5. sort
-Source Code : []()
+Source Code : [sort.c](https://github.com/daffaaflah6/FP_SISOP20_C11/blob/master/sort.c)
 
 Mengurutkan file()
 Contoh : output akan diprint di terminal kecuali -o
