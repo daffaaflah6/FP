@@ -4,7 +4,7 @@
 #include "fcntl.h"
 #include "fs.h"
 
-int fdfile, line_limit;
+int fdfile, line_limit = 1000;
 char output[100];
 char *deadline;
 
@@ -66,7 +66,7 @@ void split_function()
 		base = index = buf;
 		while (--n >= 0) {
 			if (*index++ == '\n')
-				if (++lines % 1000 == 0) {
+				if (++lines % line_limit == 0) {
 					if (fd == -1) fd = new_File();
 					if (write(fd, base, (int) (index - base)) != (int) (index - base))
 						exit();
